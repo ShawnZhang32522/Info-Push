@@ -1,0 +1,66 @@
+{
+  "Paging": {
+    "PageSize": 10,
+    "PageIndex": 1,
+    "TotalRecords": 3
+  },
+  "Result": {
+    "VerifyResult": 1,
+    "Data": [
+      {
+        "Id": "mock-beijing-001",
+        "Title": "北京市某银行监管系统升级项目招标公告",
+        "ProjectNo": "BJ-2026-001",
+        "Province": "北京市",
+        "City": "北京市",
+        "PublishDate": "2026-03-03",
+        "ContentUrl": "https://example.com/tender/bj-001",
+        "BidInviUnitList": [
+          {
+            "Name": "北京市财政局"
+          }
+        ],
+        "BidProgressList": [
+          "招标公告"
+        ]
+      },
+      {
+        "Id": "mock-shanghai-001",
+        "Title": "上海市现金管理平台采购项目中标公告",
+        "ProjectNo": "SH-2026-008",
+        "Province": "上海市",
+        "City": "上海市",
+        "PublishDate": "2026-03-02",
+        "ContentUrl": "https://example.com/tender/sh-001",
+        "BidInviUnitList": [
+          {
+            "Name": "上海市卫生健康委员会"
+          }
+        ],
+        "BidProgressList": [
+          "中标公告"
+        ]
+      },
+      {
+        "Id": "mock-other-001",
+        "Title": "某民营公司办公用品采购项目",
+        "ProjectNo": "OT-2026-009",
+        "Province": "江苏省",
+        "City": "苏州市",
+        "PublishDate": "2026-03-01",
+        "ContentUrl": "https://example.com/tender/ot-001",
+        "BidInviUnitList": [
+          {
+            "Name": "苏州某科技有限公司"
+          }
+        ],
+        "BidProgressList": [
+          "招标公告"
+        ]
+      }
+    ]
+  },
+  "Status": "200",
+  "Message": "mock response"
+}
+

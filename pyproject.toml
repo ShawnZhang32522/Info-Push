@@ -1,0 +1,15 @@
+[project]
+name = "intelligence-push"
+version = "0.1.0"
+description = "Openclaw tender query MVP"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi==0.116.1",
+  "uvicorn==0.35.0",
+  "httpx==0.28.1",
+  "pydantic==2.11.7",
+]
+
+[tool.uv]
+package = false
+
