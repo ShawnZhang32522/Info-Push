@@ -144,7 +144,6 @@ def parse_detail_page(html: str) -> dict[str, str | int]:
 
     title = meta_title or page_title
     publish_date = meta_date or page_date
-    score = _quality_score(content)
 
     return {
         "title": title,
@@ -152,7 +151,6 @@ def parse_detail_page(html: str) -> dict[str, str | int]:
         "source_site": meta_site,
         "content_preview": content[:1200],
         "extract_strategy": strategy,
-        "quality_score": score,
     }
 
 
